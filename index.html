@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Critical Atlas of Internet</title>
+</head>
+<body>
+
+<div class="container">
+    <h2>Critical Atlas of Internet</h2>
+    <p id="responseContent" style="display: none;">
+        By: Cassandra K.<br>
+        Quotes:<br>
+        1. "Potentially, Internet is everywhere, yet is a single entity; it is both the concept and the thing. Herein lies its strength: the fact it is a single common space, but on a worldwide scale."<br>
+        2. "Internet does not get rid of the traditional geographic boundaries, nor does it dissolve cultural identity, or smooth out linguistic differences: it consecrates them."<br><br>
+        
+        Response:<br>
+        The paradox of the Internet being both large and broad, encompassing the entire planet while still viewed as a single, focused location is an intriguing concept. Boris Beaude's description of the Internet as both a notion and a thing captures the essence of this digital domain. It's a common environment, bringing together different cultures, philosophies, and systems of thought under one 'roof'. However, as Frederic Martel points out, it highlights rather than erases our cultural or geographical identity. This connection not only shrinks the world but also emphasizes the distinctiveness of each location and culture. It's also worth noting that search engines play a key influence in creating our image of the Internet by managing exposure and accessibility. Their influence influences the concentration of web activities around large actors, so defining our online experiences.<br><br>
+    
+        Question: <br>
+        How do these physical or societal systems reflect or diverge from the digital landscape of the Internet?<br>
+    </p>
+    <button onclick="showResponse()">Show Response</button>
+    <img id="responseImage" src="assets/atlas.jpeg" alt="Atlas Image" style="display: none; max-width: 100%;">
+    <button onclick="showImage()">Show Photo from Text</button>
+</div>
+
+<script>
+    function showResponse() {
+        document.getElementById('responseContent').style.display = 'block';
+    }
+    function showImage() {
+        document.getElementById('responseImage').style.display = 'block';
+    }
+</script>
+
+</body>
+</html>
